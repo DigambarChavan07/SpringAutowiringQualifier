@@ -11,9 +11,15 @@ public class Human {
 	@Qualifier("humanHeart")
 	private Heart heart;
 	
+	
+	
 //	public void setHeart(Heart heart) {
 //		this.heart = heart;
 //		System.out.println("Setter Injection called....");
+//	}
+
+//	public Human() {
+//		System.out.println("Human.Human() Constructor called...");
 //	}
 
 	public void startPumping() {
